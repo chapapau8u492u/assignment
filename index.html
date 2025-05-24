@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmptyCup - Interior Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-row">
+            <!-- EmptyCup logo -->
+            <div class="logo-circle">
+                <img src="src/logo.png" alt="logo-image" class="logo-img">
+            </div>
+            <div class="title">EmptyCup</div>
+            <!-- Three dots menu -->
+            <div class="header-menu">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <nav class="main-nav">
+            <!-- NAVBAR - CONTACTS -->
+            <button class="nav-btn active">
+                <i class="fas fa-address-book"></i>
+                <span>Contact</span>
+            </button>
+
+            <!-- NAVBAR - GALLERY -->
+            <button class="nav-btn">
+                <i class="fas fa-image"></i>
+                <span>Gallery</span>
+            </button>
+
+            <!-- NAVBAR - MAP -->
+            <button class="nav-btn">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Map</span>
+            </button>
+
+            <!-- NAVBAR - SHORTLISTED -->
+            <button class="nav-btn">
+                <i class="fas fa-bookmark"></i>
+                <span>Shortlisted</span>
+            </button>
+
+            <!-- NAVBAR - SORT -->
+            <button class="nav-btn">
+                <i class="fas fa-sort-amount-down"></i>
+                <span>Sort</span>
+            </button>
+
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <!-- Designer 1 -->
+        <div class="designer-card viewed">
+            <div class="card-main">
+                <div class="designer-name">Epic Designs</div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="designer-description">
+                    Passionate team of 4 designers working out of Bangalore with an experience of 4 years.
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-value">57</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">8</div>
+                        <div class="stat-label">Years</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">$$</div>
+                        <div class="stat-label">Price</div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div>+91 - 984532853</div>
+                    <div>+91 - 984532854</div>
+                </div>
+            </div>
+            <div class="card-actions">
+                <button class="action-btn"><i class="fas fa-arrow-right"></i><span>Details</span></button>
+                <button class="action-btn"><i class="fas fa-eye-slash"></i><span>Hide</span></button>
+                <button class="action-btn shortlist" data-id="1"><i class="far fa-bookmark"></i><span>Shortlist</span></button>
+                <button class="action-btn"><i class="fas fa-flag"></i><span>Report</span></button>
+            </div>
+        </div>
+
+        <!-- Designer 2 -->
+        <div class="designer-card">
+            <div class="card-main">
+                <div class="designer-name">Studio - D3</div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="designer-description">
+                    Passionate team of 4 designers working out of Bangalore with an experience of 4 years.
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-value">43</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">6</div>
+                        <div class="stat-label">Years</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">$$$</div>
+                        <div class="stat-label">Price</div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div>+91 - 984532853</div>
+                    <div>+91 - 984532854</div>
+                </div>
+            </div>
+            <div class="card-actions">
+                <button class="action-btn"><i class="fas fa-arrow-right"></i><span>Details</span></button>
+                <button class="action-btn"><i class="fas fa-eye-slash"></i><span>Hide</span></button>
+                <button class="action-btn shortlist " data-id="2"><i class="fas fa-bookmark"></i><span>Shortlist</span></button>
+                <button class="action-btn"><i class="fas fa-flag"></i><span>Report</span></button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script
+</body>
+
+</html>
